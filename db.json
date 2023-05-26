@@ -1,9 +1,556 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "HealthKart": [
+    {
+      "ID": 1,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/859012/klairs_gentle_black_sugar_facial_polish_110_gm_78509_0_2.jpg",
+      "tittle": "Klairs Gentle Black Sugar Facial Polish 110 gm",
+      "category": "Mkt: Limese Pvt Ltd",
+      "price-box": "MRP",
+      "discount": "10%OFF",
+      "price": "Rs.12,00"
+    },
+    {
+      "ID": 2,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/412645/kairali_kaircin_youthful_glowing_facial_oil_25_ml_54155_0_1.jpg",
+      "tittle": "Kairali Kaircin Youthful Glowing Facial Oil 25 ml",
+      "category": "Mkt: Kairali Ayurvedic Products Pvt. Ltd",
+      "price-box": "Best price*",
+      "discount": "20% OFF",
+      "price": "Rs. 1,225.00"
+    },
+    {
+      "ID": 3,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/828739/vlcc_skin_tightening_facial_kit_6_facials_240_gm_12_ml_0.jpg",
+      "tittle": "VLCC Skin Tightening Facial Kit - 6 Facials (240 gm + 12 ml)",
+      "category": "Mkt: VLCC Personal Care Ltd",
+      "price-box": "Best price*",
+      "discount": "10% OFF",
+      "price": "Rs. 570.00"
+    },
+    {
+      "ID": 4,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/828767/vlcc_party_glow_facial_kit_5_session_0.jpg",
+      "tittle": "VLCC Party Glow Facial Kit 5 Session",
+      "category": "Mkt: VLCC Personal Care Ltd",
+      "price-box": "Best price*",
+      "discount": "15% OFF",
+      "price": "Rs. 650.00"
+    },
+    {
+      "ID": 5,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/828765/vlcc_anti_tan_facial_kit_5_session_0.jpg",
+      "tittle": "VLCC Anti Tan Facial Kit 5 Session",
+      "category": "Mkt: VLCC Personal Care Ltd",
+      "price-box": "Best price*",
+      "discount": "13% OFF",
+      "price": "Rs. 700.00"
+    },
+    {
+      "ID": 6,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/113800/banjaras_facial_kit_papaya_60_gm_0.jpg",
+      "tittle": "Banjaras Facial Kit - Papaya 60 gm",
+      "category": "Mkt: Banjara Herbals Pvt Ltd",
+      "price-box": "Best price*",
+      "discount": "8.4% OFF",
+      "price": "Rs. 200.00"
+    },
+    {
+      "ID": 7,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/14802/vlcc_party_glow_single_facial_kit_60_gm_0.jpg",
+      "tittle": "VLCC Party Glow Single Facial Kit 60 gm",
+      "category": "Mkt: VLCC Personal Care Ltd",
+      "price-box": "Best price*",
+      "discount": "15% OFF",
+      "price": "Rs. 300.00"
+    },
+    {
+      "ID": 8,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/829602/aroma_magic_silver_facial_kit_225_gm_0.jpg",
+      "tittle": "Aroma Magic Silver Facial Kit 225 gm",
+      "category": "Mkt: Blossom Kochhar Beauty Products Pvt Ltd",
+      "price-box": "Best price*",
+      "discount": "5% OFF",
+      "price": "Rs. 1,200.00"
+    },
+    {
+      "ID": 9,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/894091/vlcc_anti_tan_facial_kit_6_facials_300_gm_0.jpg",
+      "tittle": "VLCC Anti Tan Facial Kit - 6 Facials 300 gm",
+      "category": "Mkt: VLCC Personal Care Ltd",
+      "price-box": "Best price*",
+      "discount": "10% OFF",
+      "price": "Rs. 525.00"
+    },
+    {
+      "ID": 10,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/829604/aroma_magic_five_in_one_facial_kit_220_gm_0.jpg",
+      "tittle": "Aroma Magic Five In One Facial Kit 220 gm",
+      "category": "Mkt: Blossom Kochhar Beauty Products Pvt Ltd",
+      "price-box": "Best price*",
+      "discount": "5% OFF",
+      "price": "Rs. 1,250.00"
+    },
+    {
+      "ID": 11,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/894092/vlcc_fruit_facial_kit_6_facials_300_gm_0.jpg",
+      "tittle": "VLCC Fruit Facial Kit - 6 Facials 300 gm",
+      "category": "Mkt: VLCC Personal Care Ltd",
+      "price-box": "Best price*",
+      "discount": "13% OFF",
+      "price": "Rs. 570.00"
+    },
+    {
+      "ID": 12,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/840444/biotique_gold_radiance_facial_65_gm_0.jpg",
+      "tittle": "Biotique Gold Radiance Facial 65 gm",
+      "category": "Mkt: Bio Veda Action Research Company",
+      "price-box": "Best price*",
+      "discount": "15% OFF",
+      "price": "Rs. 320.00"
+    },
+    {
+      "ID": 13,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/823628/manforce_extra_dotted_condoms_hazelnut_flavoured_10s_62541_0_1.jpg",
+      "discount": "20% OFF",
+      "tittle": "Manforce Extra Dotted Condoms - Hazelnut Flavoured 10's",
+      "category": "Condoms",
+      "brand": "Mkt: Mankind Pharma Pvt Ltd",
+      "price": "Rs. 80.00"
+    },
+    {
+      "ID": 14,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/803748/durex_condoms_air_10s_0_4.jpg",
+      "discount": "2% OFF",
+      "tittle": "Durex Condoms - Air 10's",
+      "category": "Condoms",
+      "brand": "Mkt: Reckitt Benckiser India Pvt Ltd",
+      "price": "Rs. 245.00"
+    },
+    {
+      "ID": 15,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/409281/manforce_3_in_1_wild_condoms_black_grapes_flaboured_10s_0_1.jpg",
+      "discount": "25% OFF",
+      "tittle": "Manforce 3 in 1 Wild Condoms - Black Grapes Flaboured 10's",
+      "category": "Condoms",
+      "brand": "Mkt: Mankind Pharma Pvt Ltd",
+      "price": "Rs. 80.00"
+    },
+    {
+      "ID": 16,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/823630/manforce_game_condoms_exotic_flavoured_10s_62543_0_1.jpg",
+      "discount": "25% OFF",
+      "tittle": "Manforce Game Condoms - Exotic Flavoured 10's",
+      "category": "Condoms",
+      "brand": "Mkt: Mankind Pharma Pvt Ltd",
+      "price": "Rs. 90.00"
+    },
+    {
+      "ID": 17,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/822659/durex_condoms_extra_ribbed_10s_0_4.jpg",
+      "discount": "3% OFF",
+      "tittle": "Durex Condoms - Extra Ribbed 10's",
+      "category": "Condoms",
+      "brand": "Mkt: Reckitt Benckiser India Pvt Ltd",
+      "price": "Rs. 245.00"
+    },
+    {
+      "ID": 18,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/14492/moods_condoms_all_night_climax_delay_20s_0_1.jpg",
+      "discount": "25% OFF",
+      "tittle": "Moods Condoms All Night Climax Delay 20's",
+      "category": "Condoms",
+      "brand": "Mkt: Hll Lifecare Ltd",
+      "price": "Rs. 180.00"
+    },
+    {
+      "ID": 19,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/14503/moods_condoms_dotted_3s_0_1.jpg",
+      "discount": "20% OFF",
+      "tittle": "Moods Condoms Dotted 3's",
+      "category": "Condoms",
+      "brand": "Mkt: Hll Lifecare Ltd",
+      "price": "Rs. 30.00"
+    },
+    {
+      "ID": 20,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/848465/skore_notout_climax_delay_with_1500_plus_raised_dots_10_s_0.jpg",
+      "discount": "23% OFF",
+      "tittle": "Skore Notout Climax Delay with 1500 Plus Raised Dots 10's",
+      "category": "Condoms",
+      "brand": "Mkt: Ttk Healthcare Ltd",
+      "price": "Rs. 120.00"
+    },
+    {
+      "ID": 21,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/14512/moods_condoms_ultrathin_20s_0_1.jpg",
+      "discount": "25% OFF",
+      "tittle": "Moods Condoms - Ultrathin 20's",
+      "category": "Condoms",
+      "brand": "Mkt: Hll Lifecare Ltd",
+      "price": "Rs. 180.00"
+    },
+    {
+      "ID": 22,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/824514/manforce_super_condoms_1500_dots_litchi_flavoured_3_s_0.jpg",
+      "discount": "5% OFF",
+      "tittle": "Manforce Super Condoms 1500 Dots - Litchi Flavoured 3's",
+      "category": "Condoms",
+      "brand": "Mkt: Mankind Pharma Pvt Ltd",
+      "price": "Rs. 20.00"
+    },
+    {
+      "ID": 23,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/848483/skore_condoms_timeless_10_s_0.jpg",
+      "discount": "23% OFF",
+      "tittle": "Skore Condoms - Timeless 10's",
+      "category": "Condoms",
+      "brand": "Mkt: Ttk Healthcare Ltd",
+      "price": "Rs. 165.00"
+    },
+    {
+      "ID": 24,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/848468/skore_blues_with_xtra_lubrication_10_s_0.jpg",
+      "discount": "23% OFF",
+      "tittle": "Skore Blues with Xtra Lubrication 10's",
+      "category": "Lubricants",
+      "brand": "Mkt: Ttk Healthcare Ltd",
+      "price": "Rs. 80.00"
+    },
+    {
+      "ID": 24,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/406895/cetaphil_gentle_skin_cleanser_for_all_skin_types_125ml_0.jpg",
+      "discount": "15% OFF",
+      "tittle": "CETAPHIL GENTLE SKIN CLEANSER FOR ALL SKIN TYPES 125ml",
+      "category": "Mkt: Galderma India Pvt Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 333.00"
+    },
+    {
+      "ID": 26,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/884812/ahaglow_s_foaming_face_wash_100ml_0_1.jpg",
+      "discount": "14% OFF",
+      "tittle": "AHAGLOW S FOAMING Face Wash 100ml",
+      "category": "Mkt: Torrent Pharmaceuticals Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 695.00"
+    },
+    {
+      "ID": 27,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/405495/himalaya_purifying_neem_face_wash_200_ml_0_2.jpg",
+      "discount": "brand",
+      "tittle": "Himalaya Purifying Neem Face Wash 200 ml",
+      "category": "Mkt: The Himalaya Drug Company",
+      "price-box": "MRP",
+      "price": "brand"
+    },
+    {
+      "ID": 28,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/405961/patanjali_saundarya_face_wash_60_gm_0.jpg",
+      "discount": "brand",
+      "tittle": "Patanjali Saundarya Face Wash 60 gm",
+      "category": "Mkt: Patanjali Ayurved Ltd",
+      "price-box": "MRP",
+      "price": "brand"
+    },
+    {
+      "ID": 29,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/892331/ahaglow_advanced_face_wash_gel_200gm_0_2.jpg",
+      "discount": "14% OFF",
+      "tittle": "AHAGLOW ADVANCED FACE WASH Gel 200gm",
+      "category": "Mkt: Torrent Pharmaceuticals Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 710.00"
+    },
+    {
+      "ID": 30,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/14049/garnier_men_acnofight_anti_pimple_face_wash_50_gm_0_4.jpg",
+      "discount": "brand",
+      "tittle": "Garnier Men Acnofight Anti Pimple Face Wash 50 gm",
+      "category": "Mkt: L'Oreal India Pvt, Ltd",
+      "price-box": "MRP",
+      "price": "brand"
+    },
+    {
+      "ID": 31,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/405972/patanjali_face_wash_rose_60_gm_0.jpg",
+      "discount": "brand",
+      "tittle": "Patanjali Face Wash - Rose 60 gm",
+      "category": "Mkt: Patanjali Ayurved Ltd",
+      "price-box": "MRP",
+      "price": "brand"
+    },
+    {
+      "ID": 32,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/889428/aroma_magic_face_wash_neem_tea_tree_100_ml_0.jpg",
+      "discount": "5% OFF",
+      "tittle": "Aroma Magic Face Wash - Neem & Tea Tree 100 ml",
+      "category": "Mkt: Blossom Kochhar Beauty Products Pvt Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 180.00"
+    },
+    {
+      "ID": 33,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/412569/sebamed_clear_face_cleansing_foam_50_ml_0_1.jpg",
+      "discount": "13% OFF",
+      "tittle": "Sebamed Clear Face Cleansing Foam 50 ml",
+      "category": "Mkt: Usv Private Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 322.00"
+    },
+    {
+      "ID": 34,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/829550/aroma_magic_activated_bamboo_charcoal_face_wash_100_ml_0.jpg",
+      "discount": "5% OFF",
+      "tittle": "Aroma Magic Activated Bamboo Charcoal Face Wash 100 ml",
+      "category": "Mkt: Blossom Kochhar Beauty Products Pvt Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 210.00"
+    },
+    {
+      "ID": 35,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/405494/himalaya_purifying_neem_face_wash_150_ml_0_2.jpg",
+      "discount": "8% OFF",
+      "tittle": "Himalaya Purifying Neem Face Wash 150 ml",
+      "category": "Mkt: The Himalaya Drug Company",
+      "price-box": "Best price*",
+      "price": "Rs. 205.00"
+    },
+    {
+      "ID": 36,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/414005/patanjali_saundarya_face_wash_neem_tulsi_100_gm_0.jpg",
+      "discount": "brand",
+      "tittle": "Patanjali Saundarya Face Wash - Neem Tulsi 100 gm",
+      "category": "Mkt: Patanjali Ayurved Ltd",
+      "price-box": "MRP",
+      "price": "brand"
+    },
+    {
+      "ID": 37,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/14019/vicks_vaporub_10_ml_32621_0_1.jpg",
+      "discount": "5% OFF",
+      "tittle": "Vicks Vaporub 10 ml",
+      "category": "Cough & Cold",
+      "price": "Rs. 42.00"
+    },
+    {
+      "ID": 38,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/821332/kapiva_wild_tulsi_giloy_juice_1_ltr_0_3.jpg",
+      "discount": "25.3% OFF",
+      "tittle": "Kapiva Wild Tulsi Giloy Juice 1 ltr",
+      "category": "Ayurvedic",
+      "price": "Rs. 400.00"
+    },
+    {
+      "ID": 39,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/362478/himalaya_cold_balm_10_gm_0_2.jpg",
+      "discount": "13% OFF",
+      "tittle": "Himalaya Cold Balm 10 gm",
+      "category": "Cough & Cold",
+      "price": "Rs. 45.00"
+    },
+    {
+      "ID": 40,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/801216/vicks_baby_rub_50_ml_56285_0_1.jpg",
+      "discount": "7.8% OFF",
+      "tittle": "Vicks Baby Rub 50 ml",
+      "category": "Baby Care",
+      "price": "Rs. 170.00"
+    },
+    {
+      "ID": 41,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/853335/vicks_baby_rub_10_ml_0_0.jpg",
+      "discount": "6% OFF",
+      "tittle": "Vicks Baby Rub 10 ml",
+      "category": "Baby Care",
+      "price": "Rs. 47.00"
+    },
+    {
+      "ID": 42,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/846877/himalaya_cold_balm_rapid_action_45_gm_0.jpg",
+      "discount": "13% OFF",
+      "tittle": "Himalaya Cold Balm Rapid Action 45 gm",
+      "category": "Cough & Cold",
+      "price": "Rs. 135.00"
+    },
+    {
+      "ID": 43,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/821313/kapiva_aloe_amla_juice_1_ltr_61069_0_4.jpg",
+      "discount": "20.2% OFF",
+      "tittle": "Kapiva Aloe + Amla Juice 1 ltr",
+      "category": "Ayurvedic",
+      "price": "Rs. 500.00"
+    },
+    {
+      "ID": 44,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/824244/sri_sri_tattva_ushira_syrup_200_ml_0.jpg",
+      "discount": "10% OFF",
+      "tittle": "Sri Sri Tattva Ushira Syrup 200 ml",
+      "category": "Cough & Cold",
+      "price": "Rs. 110.00"
+    },
+    {
+      "ID": 45,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/824243/sri_sri_tattva_sariva_syrup_200_ml_0.jpg",
+      "discount": "10% OFF",
+      "tittle": "Sri Sri Tattva Sariva Syrup 200 ml",
+      "category": "Cough & Cold",
+      "price": "Rs. 110.00"
+    },
+    {
+      "ID": 46,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/824242/sri_sri_tattva_raktashodhini_arishta_syrup_200_ml_0.jpg",
+      "discount": "10% OFF",
+      "tittle": "Sri Sri Tattva Raktashodhini Arishta Syrup 200 ml",
+      "category": "Cough & Cold",
+      "price": "Rs. 180.00"
+    },
+    {
+      "ID": 47,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/856545/dr_morpen_lemolate_gold_ayurvedic_cough_syrup_100_ml_0_1.jpg",
+      "discount": "25% OFF",
+      "tittle": "Dr.Morepen Lemolate Gold Ayurvedic Cough Syrup 100 ml",
+      "category": "Ayurvedic",
+      "price": "Rs. 76.00"
+    },
+    {
+      "ID": 48,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/856549/dr_morpen_lemolate_gold_syrup_100_ml_0_0.jpg",
+      "discount": "25% OFF",
+      "tittle": "Dr.Morepen Lemolate Gold Syrup 100 ml",
+      "category": "Ayurvedic",
+      "price": "Rs. 76.00"
+    },
+    {
+      "ID": 49,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/832535/wheezal_jaborandi_hair_treatment_oil_110_ml_0.jpg",
+      "discount": "10% OFF",
+      "tittle": "Wheezal Jaborandi Hair Treatment Oil 110 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Wheezal Homeo Pharma",
+      "price-box": "Best price*",
+      "price": "Rs. 160.00"
+    },
+    {
+      "ID": 50,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/13514/navratna_ayurvedic_cool_oil_100_ml_0.jpg",
+      "discount": "2% OFF",
+      "tittle": "Navratna Ayurvedic Cool Oil 100 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Emami Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 82.00"
+    },
+    {
+      "ID": 51,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/407060/biotique_bio_bhringraj_therapeutic_oil_for_falling_hair_120_ml_0_1.jpg",
+      "discount": "37% OFF",
+      "tittle": "Biotique Bio Bhringraj Therapeutic Oil for Falling Hair 120 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Bio Veda Farmacy Private Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 200.00"
+    },
+    {
+      "ID": 52,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/12738/dabur_amla_hair_oil_90_ml_0.jpg",
+      "discount": "7% OFF",
+      "tittle": "Dabur Amla Hair Oil 90 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Dabur India Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 49.00"
+    },
+    {
+      "ID": 53,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/405980/patanjali_kesh_kanti_hair_oil_120_ml_0.jpg",
+      "discount": "6.1% OFF",
+      "tittle": "Patanjali Kesh Kanti Hair Oil 120 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Patanjali Ayurved Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 140.00"
+    },
+    {
+      "ID": 54,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/405127/bajaj_almond_drops_hair_oil_200_ml_0.jpg",
+      "discount": "4.5% OFF",
+      "tittle": "Bajaj Almond Drops Hair Oil 200 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Bajaj Consumer Care Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 138.00"
+    },
+    {
+      "ID": 55,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/405130/bajaj_almond_drops_hair_oil_500_ml_0_2.jpg",
+      "discount": "4.5% OFF",
+      "tittle": "Bajaj Almond Drops Hair Oil 500 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Bajaj Consumer Care Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 305.00"
+    },
+    {
+      "ID": 56,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/802727/patanjali_kesh_kanti_hair_oil_amla_50_ml_0.jpg",
+      "discount": "brand",
+      "tittle": "Patanjali Kesh Kanti Hair Oil - Amla 50 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Patanjali Ayurved Ltd",
+      "price-box": "MRP",
+      "price": "brand"
+    },
+    {
+      "ID": 57,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/12722/dabur_special_quick_absorbing_light_hair_oil_100_ml_0.jpg",
+      "discount": "10% OFF",
+      "tittle": "Dabur Special Quick Absorbing Light Hair Oil 100 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Dabur India Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 60.00"
+    },
+    {
+      "ID": 58,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/408659/patanjali_kesh_kanti_hair_oil_300_ml_0.jpg",
+      "discount": "6.1% OFF",
+      "tittle": "Patanjali Kesh Kanti Hair Oil 300 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Patanjali Ayurved Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 250.00"
+    },
+    {
+      "ID": 59,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/15840/baidyanath_maha_bhringhraj_tel_200_ml_0.jpg",
+      "discount": "10% OFF",
+      "tittle": "Baidyanath Maha Bhringhraj Tel 200 ml",
+      "types": "Ayush",
+      "category": "Ayurvedic",
+      "category__1": "Mkt: Shree Baidyanath Ayurved Bhawan Pvt Ltd,Kolkata",
+      "price-box": "Best price*",
+      "price": "Rs. 325.00"
+    },
+    {
+      "ID": 60,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/412393/navratna_ayurvedic_cool_oil_200_ml_0.jpg",
+      "discount": "7% OFF",
+      "tittle": "Navratna Ayurvedic Cool Oil 200 ml",
+      "types": "Hair",
+      "category": "Hair Care",
+      "category__1": "Mkt: Emami Ltd",
+      "price-box": "Best price*",
+      "price": "Rs. 150.00"
+    }
+  ]
 }
