@@ -552,5 +552,13 @@
       "price-box": "Best price*",
       "price": "Rs. 150.00"
     }
+  ],
+  "users": [
+    {
+      "Id": 1,
+      "username": "pradeep",
+      "email": "pradeepchakrawrti2000@gmail.com",
+      "password": "pradeep2000"
+    }
   ]
 }
